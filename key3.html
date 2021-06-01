@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <section class="sub-header3">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+            <img src="Logo.png">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="key1.html">KEY 1</a></li>
+                <li><a href="key2.html">KEY 2</a></li>
+                <li><a href="key3.html">KEY 3</a></li>
+                <li><a href="key4.html">KEY 4</a></li>
+                <li><a href="key5.html">KEY 5</a></li>
+            </ul>
+        </nav>
+        <h1>Set the Goals</h1>
+
+    </section>
+
+    <section class="key3">
+        <div class="container3">
+            <div class="card3">
+                <img src="set_goal.png">
+                <div class="content3">
+                    <h2>Set the Goals</h2>
+                    <p>Setting goals help align your focus and promote a sense of self-mastery. And it focuses your acquisition of knowledge, and helps you to organize your time and your resources</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="reach_goal.jpg">
+                <div class="content3">
+                    <h2>Reach the Goals </h2>
+                    <p>Envision it forward,<br> Aim it forward,<br>Live it forward<br>then you will reach your goal</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="little_higher.jpg">
+                <div class="content3">
+                    <h2>Reach Little Higher</h2>
+                    <p>If you achieve your goal then definitely you will reach a little higher position</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- footer------->
+
+    <section class="footer3">
+        <h1>"Focus on your goals, not your fear. Focus like a<br> laser beam on your goals" </h1>
+    </section>
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

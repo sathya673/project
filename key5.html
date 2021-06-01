@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <section class="sub-header5">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+            <img src="Logo.png">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="key1.html">KEY 1</a></li>
+                <li><a href="key2.html">KEY 2</a></li>
+                <li><a href="key3.html">KEY 3</a></li>
+                <li><a href="key4.html">KEY 4</a></li>
+                <li><a href="key5.html">KEY 5</a></li>
+            </ul>
+        </nav>
+        <h1>Maintain a healthy mind,<br> body and sprit</h1>
+
+    </section>
+
+    <section class="key5">
+        <div class="container5">
+            <div class="card5">
+                <img src="diet.png">
+                <div class="content5">
+                    <h2>Healthy Diet</h2>
+                    <p> Eating a nutritious and healthy diet can provide a valuable boost to your success. </p>
+                </div>
+            </div>
+            <div class="card5">
+                <img src="exercise.jpg">
+                <div class="content5">
+                    <h2>Exercise</h2>
+                    <p>It can help your brain health, memory and increase your energy level</p>
+                </div>
+            </div>
+            <div class="card5">
+                <img src="sprit.jpg">
+                <div class="content5">
+                    <h2>Sprit</h2>
+                    <p>Enjoying nature can increase your sprit, happiness, concentration, and even help creativity to your success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- footer------->
+
+    <section class="footer5">
+        <h1>"Harmony in Mind-Body-Sprit promotes a true <br> state of health, peace and happiness" </h1>
+    </section>
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

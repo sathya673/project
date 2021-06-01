@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+            <img src="Logo.png">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="key1.html">KEY 1</a></li>
+                <li><a href="key2.html">KEY 2</a></li>
+                <li><a href="key3.html">KEY 3</a></li>
+                <li><a href="key4.html">KEY 4</a></li>
+                <li><a href="key5.html">KEY 5</a></li>
+            </ul>
+        </nav>
+
+    </section>
+    <!-------Importance of success------->
+
+    <section class="importance">
+        <h1>Importance Of Success</h1>
+
+        <div class="rows">
+            <div class="importance-col">
+                <img src="Move_Forward.jpg">
+                <div class="layers">
+                    <h3>MOVE FORWARD</h3>
+                </div>
+            </div>
+            <div class="importance-col">
+                <img src="Opportunities.jpg">
+                <div class="layers">
+                    <h3>DIFFERENT<br>OPPORTUNITIES</h3>
+                </div>
+            </div>
+            <div class="importance-col ">
+                <img src="Meaningful_life.jpg">
+                <div class="layers">
+                    <h3>MEANINGFUL<br>LIFE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------Benefits of Success------->
+
+    <section class="benefit">
+        <h1>Benefits Of Success</h1>
+
+        <div class="row">
+            <div class="benefit-col">
+                <img src="confidence.jpg">
+                <div class="layer">
+                    <h3>CONFIDENCE</h3>
+                </div>
+            </div>
+            <div class="benefit-col">
+                <img src="hope and leadership.png">
+                <div class="layer">
+                    <h3>HOPE & LEADERSHIP</h3>
+                </div>
+            </div>
+            <div class="benefit-col ">
+                <img src="well_being.png">
+                <div class="layer">
+                    <h3>WELL BEING</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------- footer------->
+
+    <section class="footer">
+        <h1>"Success isn't just what you accomplish in your life,<br> its about what you inspire others to do"</h1>
+    </section>
+
+    <!-------JavaScript for Toggle Menu------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

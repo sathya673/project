@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <section class="sub-header4">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+            <img src="Logo.png">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="key1.html">KEY 1</a></li>
+                <li><a href="key2.html">KEY 2</a></li>
+                <li><a href="key3.html">KEY 3</a></li>
+                <li><a href="key4.html">KEY 4</a></li>
+                <li><a href="key5.html">KEY 5</a></li>
+            </ul>
+        </nav>
+        <h1>Perseverence</h1>
+
+    </section>
+
+    <section class="key4">
+        <div class="container4">
+            <div class="card4">
+                <img src="never_giveup.png">
+                <div class="content4">
+                    <h2>Never Give Up</h2>
+                    <p>A never give up attitude can be used to abolish doubts and negative thinking to make you stronger in facing everything</p>
+                </div>
+            </div>
+            <div class="card4">
+                <img src="keep_going.jpg">
+                <div class="content4">
+                    <h2>Keep Going </h2>
+                    <p>It's a great exercise in building personal fortitude. When you keep going, you will get stronger</p>
+                </div>
+            </div>
+            <div class="card4">
+                <img src="keep_trying.png">
+                <div class="content4">
+                    <h2>Keep Trying </h2>
+                    <p>Your creativity and brain power will be stimulated by keep trying, then you will be succeed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- footer------->
+
+    <section class="footer4">
+        <h1>"Perseverence is a great element of success.<br> And it is key to unlock your potential" </h1>
+    </section>
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
